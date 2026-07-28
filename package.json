@@ -1,12 +1,12 @@
 {
   "name": "str-emoji-hash",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Generate a stable emoji fingerprint string from any input",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "str-emoji-hash": "./dist/cli.js"
+    "seh": "dist/cli.js"
   },
   "files": [
     "dist"
