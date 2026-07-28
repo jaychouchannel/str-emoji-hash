@@ -1,0 +1,35 @@
+{
+  "name": "str-emoji-hash",
+  "version": "1.0.0",
+  "description": "Generate a stable emoji fingerprint string from any input",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "str-emoji-hash": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "emoji",
+    "hash",
+    "fingerprint",
+    "string",
+    "fnv"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}
